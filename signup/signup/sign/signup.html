@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="sign.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapp">
+        <div class="inner">
+            <div class="image-hol">
+                <img src="./imgg.jpg">
+            </div>
+            <form onsubmit="return validateForm()">
+                <h3>Registration Form</h3>
+                <fieldset>
+                    <legend>Your Name</legend>
+                    <div class="form-g">
+                        <input type="text" placeholder="First Name" class="form-c" id="x1">
+                        <input type="text" placeholder="Second Name" class="form-c" id="x2">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Your Gender</legend>
+                    <div class="form-choix">
+                        <input type ="radio" name ="sexe" id="Homme" value="Homme" id="x3"> Men
+                        <input type ="radio" name ="sexe" id="Femme" value="Femme" id="x4"> Women
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Your City</legend>
+                    <div class="ville">
+                        <select name="ville">
+                            <option value="RA"> Tunis</option>
+                            <option value="FE"> Gabes</option>
+                            <option value="MA"> Sfax</option>
+                            <option value="AG"> Jandouba</option>
+                            <option value="TA"> Tozeur</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Your Credentials</legend>
+                    <div class="form-wrapp">
+                        <input type="text" placeholder="Username" class="form-c" id="x5">
+                    </div>
+                    <div class="form-wrapp">
+                        <input type="text" placeholder="Email" class="form-c" id="x6">
+                    </div>
+                    <div class="form-wrapp">
+                        <input type="password" placeholder="Password" class="form-c" id="x7">
+                    </div>
+                    <div class="form-wrapp">
+                        <input type="password" placeholder="Confirm Password" class="form-c" id="x8">
+                    </div>
+                </fieldset>
+                <button><a href="./login/login.html">Register</a></button>
+            </form>
+        </div>
+    </div>
+    <script src="sign.js"></script>
+</body>
+</html>

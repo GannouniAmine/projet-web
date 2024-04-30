@@ -1,0 +1,159 @@
+*{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+
+
+}
+body{
+   
+    width: 100%;
+    background: linear-gradient(to right,#dcdcdc, #ec6c85) !important;;
+}
+.container11{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    
+    
+}
+.box11{
+    margin-top: 100px;
+    display: flex;
+    background-color: white;
+    
+   
+
+}
+.contact-left{
+    flex-basis: 50%;
+    padding :40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding :40px;
+    background-color: #DC143C;
+    color: white;
+}
+h1{
+    margin-bottom: 10px;
+
+}
+.container11 p{
+    margin-bottom: 40px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:20px;
+}
+.input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom:5px ;
+}
+textarea{
+    width:100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding:10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: inline-block;
+    color:  #DC143C;
+}
+button {
+    background: #DC143C ;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius:30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px rbga(28,0,181,0.3) ;
+}
+.contact-left h3{
+   color: #DC143C;
+   text-align: center;
+
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 30px;
+}
+/* ---------------header----------------- */
+a { color: inherit; }
+header{
+    
+    top: 0; left: 0;right:0;
+    background: #DC143C;
+    padding : 2rem 9%;
+    display :flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:1000;
+    box-shadow: 0.5rem 1rem rgba(0,0,0,.1);
+    font-weight: bolder;
+    color:#333;
+}
+.logoo{
+    border: 0 solid ;
+    font-size: 5em; 
+    width:70px;
+    height: 70px;
+    background-color: rgb(135, 237, 237);
+    margin: left;
+    background-image: url(zerone.jpg) ; /* insert an image as a background of the div*/
+    background-size: 100% 100%;
+    border-radius: 100%;
+}
+
+header .logo{
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+}
+.icons{
+    display:flex;
+    gap: 30px;
+    align-items: center;
+    margin-left: 10px;}
+/* ---------footer----------------------------- */
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer{
+    text-align: center;
+    background-color: #DC143C;
+    background-image: url(background.png);
+    
+}
+.footer-col-1{
+    flex-basis:5%;
+}
+.list-item {
+    display: flex;
+    align-items: center; 
+}
+
+.list-item p {
+    margin-right: 10px;
+}

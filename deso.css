@@ -1,0 +1,251 @@
+*{
+    margin: 0; padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+
+
+}
+
+a { color: inherit; }
+header{
+    
+    top: 0; left: 0;right:0;
+    background: #DC143C;
+    padding : 2rem 9%;
+    display :flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:1000;
+    box-shadow: 0.5rem 1rem rgba(0,0,0,.1);
+    font-weight: bolder;
+    color:#333;
+}
+.logoo{
+    border: 0 solid ;
+    font-size: 5em; 
+    width:70px;
+    height: 70px;
+    background-color: rgb(135, 237, 237);
+    margin: left;
+    background-image: url(zerone.jpg) ; /* insert an image as a background of the div*/
+    background-size: 100% 100%;
+    border-radius: 100%;
+}
+body{
+    background-image: url(Hexagon.svg);
+}
+
+header .logo{
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+}
+.icons{
+    display:flex;
+    gap: 30px;
+    align-items: center;
+    margin-left: 10px;
+
+}
+.home{
+    margin-top: 80px;
+    margin-left: 0;
+    margin-right:0;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.col-2{
+    flex-basis:50%;
+    min-width:300px
+    
+
+}
+.col-2 img{
+    max-width: 100%;
+    border-radius: 20px;
+    padding-top: 10%;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60 px;
+    margin : 25px 0;
+    color:#333;
+}
+p{
+    color:#333;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.btn{
+    display: inline-block;
+    background:#DC143C;
+    color: #fff;
+    padding: 15px 30px;
+    margin:15px 0;
+    border-radius: 15px;
+    margin-left: 40%;
+    
+ }
+ 
+  h2{
+    text-align: center;
+    color: #DC143C;
+    margin-bottom: 40px;
+}
+.row1{
+    flex-basis: 25%;
+    width:170px;
+    height: 170px;
+}
+ img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+.container{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+.container h2{
+    color: gray;
+}
+.col-4{
+    flex-basis: 33.33%;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: large;
+    
+    
+}
+.col-4 img{
+    border-radius: 30px;
+}
+.pos{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    
+    background-color: #e7f3fb;
+    border-radius: 30px;
+    /* background: linear-gradient(to right,#dcdcdc, #ec6c85) !important; */
+    
+    
+}
+
+.row2{
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+     
+}
+.offer{
+    
+    margin-bottom: 0;
+   
+    
+    width: 100%;
+    
+
+}
+.footer{
+    text-align: center;
+    background-color: #DC143C;
+    background-image: url(background.png);
+    
+}
+.footer-col-1{
+    flex-basis:5%;
+}
+.list-item {
+    display: flex;
+    align-items: center; 
+}
+
+.list-item p {
+    margin-right: 10px;
+}
+.btn1{
+    display: inline-block;
+    background:#DC143C;
+    color: #fff;
+    padding: 10px 20px;
+    margin:5px 0;
+    border-radius: 15px;
+    
+
+}
+.col-3{
+    flex-basis:33%;
+    max-width: 250px;
+    
+
+}
+.testo{
+    padding: 40px 0;
+   
+    color:#434343;
+    text-align: center;
+   
+}
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20;
+}
+.border{
+    width: 160px;
+    height: 5px;
+    background: #DC143C;
+    margin: 26px auto;
+
+}
+.rowi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+
+}
+.coli{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+   
+
+
+}
+.test{
+    background: #f9869d ;
+    padding: 30px;
+    border-radius: 20px;
+}
+.test img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.stars{
+    color:#6ab04c;
+    margin-bottom: 20px;
+}

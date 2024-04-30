@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="hoodie.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="backgrounds">
+    <div class="hoodiedes">
+        <img src="./hooodie.jpg"><br><br><br><br>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                Username :  <br><br><input type="text" id="username" name="Username"><br>
+                E-mail :  <br><br><input type="text" id="email" name="Email"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Size Selection</legend>
+                what is your size ?
+                <div class="taille">
+                    <br><input type="checkbox" name="size" value="S"> S
+                    <br><input type="checkbox" name="size" value="M"> M
+                    <br><input type="checkbox" name="size" value="L"> L
+                    <br><input type="checkbox" name="size" value="XL"> XL
+                    <br><input type="checkbox" name="size" value="XXL"> XXL
+                    <br><input type="checkbox" name="size" value="XXXL"> XXXL<br>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Hoodie Description</legend>
+                put in this text area your description of the hoodie design : <br><br>
+                <textarea id="yamine"></textarea><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Photo Submission</legend>
+                <label for="avatar">Submit the photo of hoodies : </label><br><br>
+                <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+            </fieldset><br>
+            <input type="submit" name="submit" value="Submit" onclick="return validateForm()">
+        </form>
+    </div>
+    </div>
+    <script src="hoodie.js"></script>
+</body>
+</html>

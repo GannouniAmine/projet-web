@@ -1,0 +1,70 @@
+.body{
+    background-color:whitesmoke;
+}
+.musthave{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 3%;
+    color: rgb(50, 50, 50);
+} 
+.genre{
+    text-decoration: none;
+    color:rgb(50, 50, 50) ; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold;
+    margin-bottom: 5%;
+    
+}
+.genre:hover{
+    text-decoration:underline ;
+    text-decoration-color:#DC143C ;
+}
+.trait{
+    height: 5px;
+     width: 100px;
+     background-color:#DC143C;
+     border-radius: 10px;
+     translate: 54.5rem;
+     margin-bottom: 3%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.block{
+    display: grid;
+}
+.block img{
+    max-width: 400px;
+    max-height:800px;
+
+}
+.block h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    text-align: center;
+}
+.block h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    text-align: center;
+}
+.block del{
+    font-weight: 400;
+    color:#DC143C;
+}
+.brand{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 2rem;
+    margin-top: 8%;
+}
+.brand_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.brand_image img{
+    max-width: 200px;
+}
