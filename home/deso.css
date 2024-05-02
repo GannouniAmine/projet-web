@@ -164,9 +164,7 @@ p{
 }
 .footer{
     text-align: center;
-    background-color: #DC143C;
     background-image: url(background.png);
-    
 }
 .footer-col-1{
     flex-basis:5%;

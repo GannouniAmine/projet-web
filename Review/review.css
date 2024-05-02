@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../home/Hexagon.svg);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.icons{
+    display:flex;
+    gap: 30px;
+    align-items: center;
+    margin-left: 10px;
+}
+.logoo{
+    border: 0 solid ;
+    font-size: 5em; 
+    width:70px;
+    height: 70px;
+    background-color: rgb(135, 237, 237);
+    margin: left;
+    background-image: url(../home/zerone.jpg) ; /* insert an image as a background of the div*/
+    background-size: 100% 100%;
+    border-radius: 100%;
+}
+header{
+    top: 0; left: 0;right:0;
+    background: #DC143C;
+    padding : 2rem 9%;
+    display :flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:1000;
+    box-shadow: 0.5rem 1rem rgba(0,0,0,.1);
+    font-weight: bolder;
+    color:#333;
+}
+header .logo{
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+}
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 600px;
+    height: 300px;
+    margin-top: 200px;
+}
+ 
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+ 
+.rating {
+    font-size: 20px;
+    margin: 10px 0;
+}
+ 
+.stars {
+    font-size: 30px;
+    margin: 10px 0;
+}
+ 
+.star {
+    cursor: pointer;
+    margin: 0 5px;
+}
+ 
+.one {
+    color: rgb(255, 0, 0);
+}
+ 
+.two {
+    color: rgb(255, 106, 0);
+}
+ 
+.three {
+    color: rgb(251, 255, 120);
+}
+ 
+.four {
+    color: rgb(255, 255, 0);
+}
+ 
+.five {
+    color: rgb(24, 159, 14);
+}
+ 
+textarea {
+    width: 90%;
+    height: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+ 
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+a { color: inherit; }
+ 
+button:hover {
+    background-color: #0056b3;
+}
+ 
+.reviews {
+    margin-top: 20px;
+    text-align: left;
+}
+ 
+.review {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+}
+ 
+.review p {
+    margin: 0;
+}
