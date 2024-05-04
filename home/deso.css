@@ -111,6 +111,9 @@ p{
     margin-right: auto;
     display: block;
     }
+.container img{
+    width: 50px;
+}
 .container{
     margin-left: 50px;
     margin-right: 50px;
