@@ -7,16 +7,15 @@
 	<link rel="stylesheet" href="review.css">
 	<title>review</title>
 </head>
-
 <body>
     <header>
         <div class="logoo"></div>
-        <a href="../home/logo2.png" class="logo">ZerOne <span>.</span></a>
-        <a href="des.html">home</a>
-        <a href="./signup/signup/about/about.html">about</a>
-        <a href="./hhhhh/football.html">products</a>
-        <a href="../Review/reviw.html">review</a>
-        <a href="contactus.html">contact</a>
+        <a href="" class="logo">ZerOne <span>.</span></a>
+        <a href="../home/des.html">home</a>
+        <a href="../signup/signup/about/about.html">about</a>
+        <a href="../product/prj.html">products</a>
+        <a href="./reviw.html">review</a>
+        <a href="../home/contactus.html">contact</a>
         <div class="icons">
            <a href="#" class="uno3"><img src="../home/recherche.png" width="25px" height="25px"></a>
            <a href="../signup/signup/login/login.html" class="uno1"> <img src="../home/utilisateur.png"  width="40px" height="40px"></a>
@@ -25,7 +24,7 @@
        <script src="header.js"></script>
     </header>
 	<div class="container">
-		<h1>ZERONE PRODUCT</h1>
+		<b>ZERONE PRODUCT</b><br><br><br>
 		<div class="rating">
 			<span id="rating">0</span>/5
 		</div>
@@ -37,14 +36,46 @@
 			<span class="star" data-value="5" onclick="rateProduct(5)">★</span>
 		</div>
 		<p>Share your review:</p>
-		<form id="reviewForm" onsubmit="submitReview()">
+		<form id="reviewForm" onsubmit="submitReview()"><br>
 			<textarea id="review" name="review" placeholder="Write your review here"></textarea>
 			<button type="submit">Submit</button>
 		</form>
 		<div class="reviews" id="reviews">
 		</div>
-	</div>
+	</div><br><br><br>
+    <div class="messi">
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email:<a href="mailto:someone@example.com">exemple@exemple.com</a></p>
+                <p>Phone:+121 56556 565556</p>
+                <p>Address:Your Address 123 street</p>
+            </div>
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                 <ul class="list">
+                    <li><a href="../home/des.html">Home</a></li>
+                    <li><a href="../signup/signup/about/about.html">About</a></li>
+                    <li><a href="./reviw.html">Review</a></li>
+                    <li><a href="../product/prj.html">Products</a></li>
+                    <li><a href="../home/contactus.html">Contact</a></li>
+                 </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                 <li><a href="https://www.facebook.com/Zerone0x1.2?locale=fr_FR"><img src="../home/fb.png"></a></li>
+                 <li><a href="https://www.instagram.com/zerone0x1_2/"><img src="../home/wat.png"></a></li>
+                 <li><a href=""><img src="../home/insta.png"></a></li>
+                </ul>
+                </div>
+        </div>
+        <div class="bottom-bar">
+            <p>&copy; 2023 your company . All rights reserved</p>
+        </div>
+    </footer>
+    </div>
 	<script src="review.js"></script>
 </body>
-
 </html>

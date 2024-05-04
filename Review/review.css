@@ -1,15 +1,23 @@
-body {
-    font-family: Arial, sans-serif;
-    background-image: url(../home/Hexagon.svg);
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+*{
+    margin: 0; padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
 }
-.icons{
-    display:flex;
-    gap: 30px;
+
+a { color: inherit; }
+header{
+    top: 0; left: 0;right:0;
+    background: #DC143C;
+    padding : 2rem 9%;
+    display :flex;
     align-items: center;
-    margin-left: 10px;
+    justify-content: space-between;
+    z-index:1000;
+    box-shadow: 0.5rem 1rem rgba(0,0,0,.1);
+    font-weight: bolder;
+    color:#333;
+    margin-bottom: 300px;
 }
 .logoo{
     border: 0 solid ;
@@ -22,22 +30,22 @@ body {
     background-size: 100% 100%;
     border-radius: 100%;
 }
-header{
-    top: 0; left: 0;right:0;
-    background: #DC143C;
-    padding : 2rem 9%;
-    display :flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index:1000;
-    box-shadow: 0.5rem 1rem rgba(0,0,0,.1);
-    font-weight: bolder;
-    color:#333;
-}
 header .logo{
     font-size: 3rem;
     color: #333;
     font-weight: bolder;
+}
+.icons{
+    display:flex;
+    gap: 30px;
+    align-items: center;
+    margin-left: 10px;}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../home/Hexagon.svg);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 .container {
     background-color: white;
@@ -47,11 +55,11 @@ header .logo{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center;
     width: 600px;
-    height: 300px;
-    margin-top: 200px;
+    height: 400px;
+    margin-bottom: 200px;
 }
  
-h1 {
+h1{
     font-size: 24px;
     margin: 0;
 }
@@ -93,7 +101,7 @@ h1 {
  
 textarea {
     width: 90%;
-    height: 90%;
+    height: 100px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -118,7 +126,6 @@ button:hover {
     margin-top: 20px;
     text-align: left;
 }
- 
 .review {
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -128,4 +135,91 @@ button:hover {
  
 .review p {
     margin: 0;
+}
+.messi footer{
+    background-image: url(../home/background.png);
+    padding-top: 50px;
+}
+.messi .container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.messi .footer-content{
+    width: 33.3%;
+}
+.messi h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.messi .footer-content p{
+    width:190px;
+    margin: auto;
+    padding: 7px;
+}
+.messi .footer-content ul{
+    text-align: center;
+}
+.messi .list{
+    padding: 0;
+}
+.messi .list li{
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    padding: 7px;
+    position: relative;
+}
+.messi .list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #f18930;
+    transition-duration: .5s;
+}
+.messi .list li:hover::before{
+    width: 70px;
+}
+.messi .social-icons{
+    text-align: center;
+    padding: 0;
+}
+.messi .social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.messi .social-icons i{
+    color: white;
+    font-size: 25px;
+}
+.messi a{
+    text-decoration: none;
+}
+.messi a:hover{
+    color: #f18930;
+}
+.messi .social-icons i:hover{
+    color: #f18930;
+}
+.messi .bottom-bar{
+    background: #DC143C;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+.messi .bottom-bar p{
+    color: #343434;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
+.messi img{
+    width: 60px;
 }
