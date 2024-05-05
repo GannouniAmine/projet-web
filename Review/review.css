@@ -148,6 +148,7 @@ button:hover {
 }
 .messi .footer-content{
     width: 33.3%;
+    background-color: #e8adad;
 }
 .messi h3{
     font-size: 28px;
@@ -173,12 +174,8 @@ button:hover {
     position: relative;
 }
 .messi .list li::before{
-    content: '';
-    position: absolute;
-    transform: translate(-50%,-50%);
     left: 50%;
     top: 100%;
-    width: 0;
     height: 2px;
     background: #f18930;
     transition-duration: .5s;
