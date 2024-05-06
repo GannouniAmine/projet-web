@@ -36,3 +36,8 @@ document.addEventListener("DOMContentLoaded", function() {
       });
     });
   });
+
+
+function myFunction1() {
+    alert("You selected some text!");
+}
