@@ -38,3 +38,13 @@ function validateForm() {
         document.getElementById("myForm").submit();
     }
 }
+
+
+function myfunction() {
+    let x = document.getElementById("name");
+    x.value = x.value.toUpperCase();
+}
+
+function myFunction1() {
+    alert("You selected some text!");
+  }
