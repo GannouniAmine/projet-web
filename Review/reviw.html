@@ -25,6 +25,10 @@
     </header>
 	<div class="container">
 		<b>ZERONE PRODUCT</b><br><br><br>
+        <div class="username">
+            USERNAME:<br><br>
+            <input type="text" style="width: 300px;height: 25px;">
+        </div>
 		<div class="rating">
 			<span id="rating">0</span>/5
 		</div>
@@ -36,7 +40,7 @@
 			<span class="star" data-value="5" onclick="rateProduct(5)">★</span>
 		</div>
 		<p>Share your review:</p>
-		<form id="reviewForm" onsubmit="submitReview()"><br>
+		<form id="reviewForm" onsubmit="submitReview()" action="connect.php" method="post"><br>
 			<textarea id="review" name="review" placeholder="Write your review here"></textarea>
 			<button type="submit">Submit</button>
 		</form>
