@@ -19,66 +19,94 @@
             <a class="genre" href="football.html">FOOTBALL</a>
         </div>
     </div>
+    <script src="scr.js"></script>
+    <script>
+        function growButton() {
+        const btn = window.document.getElementById("exploreBtn");
+        btn.style.transform = 'scale(1.1)';
+                                   }
 
+        function shrinkButton() {
+        const btn = window.document.getElementById("exploreBtn");
+        btn.style.transform = 'scale(1)';
+                                  }
+
+        document.addEventListener("DOMContentLoaded", function() {
+        const btn = window.document.getElementById("exploreBtn");
+        btn.addEventListener("mouseover", growButton);
+        btn.addEventListener("mouseout", shrinkButton);});
+    </script>
     <div class="grid">
         <div class="block">
             <img src="./2.jpg" alt="musthave" width="350px" height="350px" />
             <h2>Crampon Nike black</h2>
             <h4><del>300.00DT</del> 260.00DT</h4>
+            <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
         <div class="block">
             <img src="./11.jpg" alt="musthave" width="350px" height="350px" />
             <h2>Crampon Nike blue</h2>
             <h4><del>300.00DT</del> 260.00DT</h4>
+            <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
         <div class="block">
             <img src="./f.jpg" alt="musthave" width="350px" height="350px"/>
             <h2>The DUNK low university gold </h2>
             <h4><del>230.00DT</del> 190.00DT</h4>
+            <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
         <div class="block">
             <img src="./airForce.jpg" alt="musthave" width="350px" height="350px"/>
             <h2>Air Force white</h2>
             <h4><del>220.00DT</del> 170.00DT</h4>
+            <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
         <div class="block">
             <img src="./adi.jpg" alt="musthave" width="350px" height="350px"/>
             <h2>ADI 2000</h2>
             <h4><del>210.99DT</del> 165.99DT</h4>
+            <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
         <div class="block">
             <img src="./3.jpg" alt="musthave" width="350px" height="350px"/>
             <h2>Demi-Crampon Adidas</h2>
             <h4><del>240.99DT</del> 190.99DT</h4>
+            <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
         <div class="block">
             <img src="./retro.jpg" alt="musthave" width="350px" height="350px"/>
             <h2>Retro 4</h2>
             <h4><del>204.99DT</del> 175.00DT</h4>
+            <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
         <div class="block">
             <img src="./12.jpg" alt="musthave" width="350px" height="350px" />
             <h2>Crampon Nike</h2>
             <h4><del>300.00DT</del> 260.00DT</h4>
+            <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
         <div class="block">
             <img src="./4.jpg" alt="musthave"width="350px" height="350px" />
             <h2>Demi-Crampon Puma</h2>
             <h4><del>240.99DT</del> 190.99DT</h4>
+            <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
         <div class="block">
             <img src="./9.jpg" alt="musthave"  width="350px" height="350px"/>
             <h2>Crampon Adidas</h2>
             <h4><del>300.00DT</del> 260.00DT</h4>
+            <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
         <div class="block">
             <img src="./jordan.jpg" alt="musthave" width="350px" height="350px"/>
             <h2>Air Jordan</h2>
             <h4><del>280.00DT</del> 220.00DT</h4>
+            <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
         <div class="block">
             <img src="./100.jpg" alt="musthave"  width="350px" height="350px"/>
             <h2>Crampon Puma</h2>
             <h4><del>300.00DT</del> 260.00DT</h4>
+            <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
     </div>

@@ -38,67 +38,95 @@
 
     <div class="grid">
         <div class="block">
-        <img src="./8.jpg" alt="musthave" />
+        <img src="./8.jpg" alt="musthave"  width="350px" height="350px"/>
         <h2>Demi-Crampon Adidas</h2>
         <h4><del>240.99DT</del> 190.99DT</h4>
+        <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
         <div class="block">
-        <img src="./i.jpg" alt="musthave" />
+        <img src="./i.jpg" alt="musthave"  width="350px" height="350px"/>
         <h2>Ozweego Celox Black</h2>
         <h4><del>204.99DT</del> 175.00DT</h4>
+        <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
         <div class="block">
-        <img src="./capuche.jpg" alt="musthave" />
+        <img src="./capuche.jpg" alt="musthave"  width="350px" height="350px"/>
         <h2>Nike hoodie</h2>
         <h4><del>119.00DT</del> 99.00DT</h4>
+        <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
         <div class="block">
-        <img src="./a.jpg" alt="musthave" />
+        <img src="./a.jpg" alt="musthave"  width="350px" height="350px"/>
         <h2>Jogging Oversize</h2>
         <h4><del>99.99DT</del> 75.00DT</h4>
+        <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
         <div class="block">
-        <img src="./d.jpg" alt="musthave" />
+        <img src="./d.jpg" alt="musthave"  width="350px" height="350px"/>
         <h2>Air Jordan blue</h2>
         <h4><del>280.00DT</del> 220.00DT</h4>
+        <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
         <div class="block">
-        <img src="./kkkk/man unied.jpg" alt="musthave" />
+        <img src="./kkkk/man unied.jpg" alt="musthave"  width="350px" height="350px"/>
         <h2>Manchester United third kit</h2>
         <h4><del>150.00DT</del> 99.99DT</h4>
+        <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
         <div class="block">
-        <img src="./k.jpg" alt="musthave" />
+        <img src="./k.jpg" alt="musthave"  width="350px" height="350px"/>
         <h2>Crampon Puma</h2>
         <h4><del>300.00DT</del> 260.00DT</h4>
+        <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
         <div class="block">
-        <img src="./h.jpg" alt="musthave" />
+        <img src="./h.jpg" alt="musthave"  width="350px" height="350px"/>
         <h2>Nike Blazer</h2>
         <h4><del>210.00DT</del> 180.00DT</h4>
+        <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
         <div class="block">
-        <img src="./cc.jpg" alt="musthave"  />
+        <img src="./cc.jpg" alt="musthave"   width="350px" height="350px"/>
         <h2>Air Force 1 white/black</h2>
         <h4><del>230.00DT</del> 190.00DT</h4>
+        <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
         <div class="block">
-        <img src="./gg.jpg" alt="musthave" />
+        <img src="./gg.jpg" alt="musthave"  width="350px" height="350px"/>
         <h2>Real Madrid second kit</h2>
         <h4><del>150.00DT</del> 99.99DT</h4>
+        <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
         <div class="block">
-        <img src="./b.jpg" alt="musthave" />
+        <img src="./b.jpg" alt="musthave"  width="350px" height="350px"/>
         <h2>Sweat-shirt Nike</h2>
         <h4><del>99.99DT</del> 80.00DT</h4>
+        <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
         <div class="block">
-        <img src="./e.jpg" alt="musthave" />
+        <img src="./e.jpg" alt="musthave"  width="350px" height="350px"/>
         <h2>PSG tracksuit</h2>
         <h4><del>110.00DT</del> 95.00DT</h4>
+        <a href="#" id="exploreBtn" class="btn1">Buy Now !</a>
         </div>
     </div>
+    <script src="scr.js"></script>
+    <script>
+        function growButton() {
+        const btn = window.document.getElementById("exploreBtn");
+        btn.style.transform = 'scale(1.1)';
+                                   }
 
+        function shrinkButton() {
+        const btn = window.document.getElementById("exploreBtn");
+        btn.style.transform = 'scale(1)';
+                                  }
+
+        document.addEventListener("DOMContentLoaded", function() {
+        const btn = window.document.getElementById("exploreBtn");
+        btn.addEventListener("mouseover", growButton);
+        btn.addEventListener("mouseout", shrinkButton);});
+    </script>
     <div class="brand">
     <div class="brand_image">
         <a href="https://www.underarmour.fr/fr-fr/"><img src="Under-Armour-Logo-1999-2005.png" alt="brand" ></a>
