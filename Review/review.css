@@ -49,9 +49,9 @@ body {
 }
 .container {
     background-color: white;
-    padding: 20px;
+    transform: translate(400px,0);
     border-radius: 8px;
-    margin: auto;
+    justify-content: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center;
     width: 600px;
@@ -137,4 +137,51 @@ button:hover {
     margin: 0;
 }
 
+
+.footer-col-1 img{
+    width: 50px;
+}
+.container1{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.container1 h2{
+    color: gray;
+}
+
+.footer{
+	margin-top: 200px;
+    text-align: center;
+    background-image: url(/home/background.png);
+}
+.footer-col-1{
+    flex-basis:5%;
+}
+.list-item {
+    display: flex;
+    align-items: center; 
+}
+
+.list-item p {
+    margin-right: 10px;
+}
+.footer-col-1 img{
+    width: 50px;
+}
+
+.container{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
 

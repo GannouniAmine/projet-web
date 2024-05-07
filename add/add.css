@@ -1,0 +1,62 @@
+
+body{
+    background-image: url(Hexagon.svg);
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.payment-methods,
+.order-information {
+    width: 100%;
+    background-color: lightblue;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.payment-methods {
+    display: flex;
+    justify-content: space-around;
+}
+
+.payment-method {
+    text-align: center;
+}
+
+.payment-method img {
+    width: 50px;
+    height: 30px;
+}
+
+.order-information form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.order-information label {
+    margin-bottom: 5px;
+}
+
+.order-information input,
+.order-information button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightblue;
+    border-radius: 3px;
+}
+
+.order-information button {
+    background-color:#DC143C;
+    color: white ;
+    cursor: pointer;
+}
+
+

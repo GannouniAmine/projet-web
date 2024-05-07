@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de Paiement</title>
+    <link rel="stylesheet" href="add.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Paiement</h1>
+        <div class="payment-methods">
+            <h2>Méthodes de Paiement</h2>
+            <div class="payment-method">
+                <img src="visa.png" alt="Visa logo">
+                <p>VISA</p>
+            </div>
+            <div class="payment-method">
+                <img src="mastercard.png" alt="MasterCard">
+                <p>MASTER CARD</p>
+            </div>
+            <div class="payment-method">
+                <img src="edinar.png" alt="Discover logo">
+                <p>E-DINAR</p>
+            </div>
+        </div>
+        <div class="order-information">
+            <h2>Informations:</h2>
+            <form>
+                <label for="card-number">Numéro de carte:<font color="FF0000">*</font></label>
+                <input id="card-number" oninput="validateInput(id)" type="text"  required placeholder="XXXX-XXXX-XXXX-XXXX">
+                <label for="expiry-date">Date d'expiration:<font color="FF0000">*</font></label>
+                <input  oninput=add() id="expiry-date" oninput="validateInput(id)" type="text"  required placeholder="MM/YY">
+                <label for="cvv">CVV:<font color="FF0000">*</font></label>
+                <input  id="cvv" oninput="validateInput(id)" type="text"  required placeholder="XXX">
+                <label for="email">Email:<font color="FF0000">*</font></label>
+                <input type="email" id="email" required>
+                <button onclick=on_submit() type="submit">PAYEZ</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script>
+function validateInput(id) {
+    document.getElementById(id).value = document.getElementById(id).value.replace(/[^0-9]/,''); 
+}
+function on_submit(){
+    if(document.getElementById("card-number").value.length !== 16 ){alert("Veuillez ressaisir votre numéro de carte!") 
+return} 
+    if (document.getElementById("expiry-date").value.length !== 5 ){alert("Veuillez ressaisir votre date d'expiration!")
+return}
+    if (document.getElementById("cvv").value.length !== 3 ){alert("Veuillez ressaisir votre CVV!")
+return}
+    }
+function add(){
+    if(document.getElementById("expiry-date").value.length === 2){
+        document.getElementById("expiry-date").value = document.getElementById("expiry-date").value+"/"
+
+    }
+}    
+</script>
+</html>

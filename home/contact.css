@@ -130,6 +130,15 @@ header .logo{
     align-items: center;
     margin-left: 10px;}
 /* ---------footer----------------------------- */
+.footer-col-1 img{
+    width: 50px;
+}
+.container1{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
 .row{
     display: flex;
     align-items: center;
@@ -140,11 +149,14 @@ header .logo{
     margin-left: 20px;
     margin-right: 20px;
 }
+.container1 h2{
+    color: gray;
+}
+
 .footer{
+	margin-top: 200px;
     text-align: center;
-    background-color: #DC143C;
     background-image: url(background.png);
-    
 }
 .footer-col-1{
     flex-basis:5%;
@@ -156,4 +168,13 @@ header .logo{
 
 .list-item p {
     margin-right: 10px;
+}
+.footer-col-1 img{
+    width: 50px;
+}
+
+.container1{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
 }

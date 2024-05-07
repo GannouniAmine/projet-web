@@ -191,7 +191,7 @@ a {
 .footer-col-1 img{
     width: 50px;
 }
-.container{
+.container1{
     margin-left: 50px;
     margin-right: 50px;
     text-align: center;
@@ -207,7 +207,7 @@ a {
     margin-left: 20px;
     margin-right: 20px;
 }
-.container h2{
+.container1 h2{
     color: gray;
 }
 
@@ -231,7 +231,7 @@ a {
     width: 50px;
 }
 
-.container{
+.container1{
     margin-left: 50px;
     margin-right: 50px;
     text-align: center;
