@@ -34,20 +34,24 @@
                 <p>With us, you unlock the gateway to your athletic potential, clad in cutting-edge sportswear <br>crafted to fuel your drive
                      and amplify your performance. Every piece in our collection reflects our unwavering commitment to your success
                      , empowering you to conquer challenges and emerge victorious in your athletic journey</p><br>
+
+                     <a href="https://www.facebook.com/Zerone0x1.2?locale=fr_FR" id="exploreBtn" class="btn">Explore now </a>
+
                      <a href="#" id="exploreBtn" class="btn">Explore now &#8594;</a>
+
                        <script>
-                        function growButton() {
-                        const btn = document.getElementById("exploreBtn");
-                        btn.style.transform = 'scale(1.1)';
-                                                   }
-                        function shrinkButton() {
-                        const btn = document.getElementById("exploreBtn");
-                        btn.style.transform = 'scale(1)';
-                                                  }
-                        document.addEventListener("DOMContentLoaded", function() {
-                        const btn = document.getElementById("exploreBtn");
-                        btn.addEventListener("mouseover", growButton);
-                        btn.addEventListener("mouseout", shrinkButton);});
+                            function growButton() {
+                            const btn = window.document.getElementById("exploreBtn");
+                            btn.style.transform = 'scale(1.1)';
+                                                    }
+                            function shrinkButton() {
+                            const btn = window.document.getElementById("exploreBtn");
+                            btn.style.transform = 'scale(1)';
+                                                    }
+                            document.addEventListener("DOMContentLoaded", function() {
+                            const btn = window.document.getElementById("exploreBtn");
+                            btn.addEventListener("mouseover", growButton);
+                            btn.addEventListener("mouseout", shrinkButton);});
                         </script>
         
             </div>
@@ -215,8 +219,15 @@
             </script>
             <div class="col-2">
                 <p>Exclusively Available on Zerone</p>
-                <h1>Manchester city t-shirt</h1>
-                <small>We are thrilled to tell you that we have a new stock with the original brand and all sizes of Manchester City t-shirts.</small>
+                <h1>Manchester - Barcelona T-shirts</h1>
+                <small>We are thrilled to tell you that we have a new stock with the original brand and all sizes of
+                 Manchester City,Manchester United and Barcelona T-shirts .The price starts from 150 dinars.</small>
+                <br>
+                <small>The offer is available until </small><small id="date"></small>
+                <script>
+                    const d = new Date(2024,4,15,0,0,0,0);
+                    document.getElementById("date").innerHTML = d;
+                </script>
                 <br>
                 <a href="#" class="btn">Buy Now &#8594;</a>
             </div>
@@ -263,7 +274,7 @@
                 <div class="coli">
                     <div class="test">
                         <img src="face2.jpg">
-                        <div class="name">Walid lamtaoui</div>
+                        <div class="name">Amira lamtaoui</div>
                         <div class="stars">
                             <i class="fa-regular fa-star">&#11088;</i>
                             <i class="fa-regular fa-star">&#11088;</i>
@@ -293,7 +304,7 @@
                 
                 <div class="footer-col-1">
                     <br>
-                    <h3>cordonnees</h3>
+                    <h3>Cordonnees</h3>
                     <br><br>
                     <ol>
                         <li class="list-item">
@@ -323,11 +334,11 @@
                     <ul>
                         <li class="list-item">
                             <p>Facebook</p>
-                            <img src="fb.png" alt="Facebook logo" width="30px">
+                            <a href="https://www.facebook.com/Zerone0x1.2?locale=fr_FR"><img src="fb.png" alt="Facebook logo" width="30px"></a>
                         </li>
                         <li class="list-item">
                             <p>instagram</p>
-                            <img src="insta.png" alt="" width="30px">
+                            <a href="https://www.instagram.com/zerone0x1_2/"><img src="insta.png" alt="" width="30px"></a>
                 
                         </li>
                         <li class="list-item">

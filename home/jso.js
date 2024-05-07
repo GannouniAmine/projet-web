@@ -17,3 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
       });
     });
   });
+
+  function tunis(){
+    document.getElementById('phone').value='(+216)';
+  }

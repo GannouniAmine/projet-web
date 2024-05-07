@@ -16,3 +16,7 @@ function validateForm() {
     alert('Formulaire soumis avec succès !');
     return true;
 }
+function caractere(){
+    chaine="Nous sommes absolument ravis d accueillir notre nouveau client";
+    alert(chaine);
+  }
