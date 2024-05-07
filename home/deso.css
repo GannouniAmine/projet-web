@@ -24,8 +24,8 @@ header{
 .logoo{
     border: 0 solid ;
     font-size: 5em; 
-    width:70px;
-    height: 70px;
+    width:100px;
+    height: 100px;
     background-color: rgb(135, 237, 237);
     margin: left;
     background-image: url(zerone.jpg) ; /* insert an image as a background of the div*/

@@ -17,5 +17,6 @@ function validateForm() {
     return true;
 }
 function caractere(){
-    alert('Nous sommes absolument ravis d accueillir notre nouveau client');
+    chaine="Nous sommes absolument ravis d accueillir notre nouveau client";
+    alert(chaine);
   }

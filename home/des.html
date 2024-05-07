@@ -38,17 +38,17 @@
 
                        <script>
                         function growButton() {
-                        const btn = document.getElementById("exploreBtn");
+                        const btn = window.document.getElementById("exploreBtn");
                         btn.style.transform = 'scale(1.1)';
                                                    }
 
                         function shrinkButton() {
-                        const btn = document.getElementById("exploreBtn");
+                        const btn = window.document.getElementById("exploreBtn");
                         btn.style.transform = 'scale(1)';
                                                   }
 
                         document.addEventListener("DOMContentLoaded", function() {
-                        const btn = document.getElementById("exploreBtn");
+                        const btn = window.document.getElementById("exploreBtn");
                         btn.addEventListener("mouseover", growButton);
                         btn.addEventListener("mouseout", shrinkButton);});
                         </script>
@@ -218,8 +218,15 @@
             </script>
             <div class="col-2">
                 <p>Exclusively Available on Zerone</p>
-                <h1>Manchester city t-shirt</h1>
-                <small>We are thrilled to tell you that we have a new stock with the original brand and all sizes of Manchester City t-shirts.</small>
+                <h1>Manchester - Barcelona T-shirts</h1>
+                <small>We are thrilled to tell you that we have a new stock with the original brand and all sizes of
+                 Manchester City,Manchester United and Barcelona T-shirts .The price starts from 150 dinars.</small>
+                <br>
+                <small>The offer is available until </small><small id="date"></small>
+                <script>
+                    const d = new Date(2024,4,15,0,0,0,0);
+                    document.getElementById("date").innerHTML = d;
+                </script>
                 <br>
                 <a href="#" class="btn">Buy Now &#8594;</a>
             </div>
