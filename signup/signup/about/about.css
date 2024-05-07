@@ -1,8 +1,45 @@
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+*{
+    margin: 0; padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
 }
+
+a { color: inherit; }
+header{
+    top: 0; left: 0;right:0;
+    background: #DC143C;
+    padding : 2rem 9%;
+    display :flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:1000;
+    box-shadow: 0.5rem 1rem rgba(0,0,0,.1);
+    font-weight: bolder;
+    color:#333;
+    margin-bottom: 300px;
+}
+.logoo{
+    border: 0 solid ;
+    font-size: 5em; 
+    width:70px;
+    height: 70px;
+    background-color: rgb(135, 237, 237);
+    margin: left;
+    background-image: url(../home/zerone.jpg) ; /* insert an image as a background of the div*/
+    background-size: 100% 100%;
+    border-radius: 100%;
+}
+header .logo{
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+}
+.icons{
+    display:flex;
+    gap: 30px;
+    align-items: center;
+    margin-left: 10px;}
 body {
 	background: url('./imgg.jpg') no-repeat;
 	font-family: Arial, sans-serif;
